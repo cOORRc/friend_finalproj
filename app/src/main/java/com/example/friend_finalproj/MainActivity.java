@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         butt_scan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent gotoscan = new Intent(MainActivity.this,TeaschScanActivity.class);
+                startActivity(gotoscan);
 
             }
         });

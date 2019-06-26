@@ -20,6 +20,6 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_teach"
-        app:menu="@menu/total_obj_drawer" />
+        app:menu="@menu/activity_teach_drawer" />
 
 </android.support.v4.widget.DrawerLayout>

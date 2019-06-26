@@ -39,20 +39,8 @@
     <string name="number">โทร</string>
     <string name="fordb">something by DB</string>
 
-
     <string name="todo">TODO</string>
     <string name="title_activity_total_obj">TotalObjActivity</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
     <string name="title_activity_teasch_scan">TeaschScanActivity</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
 
 </resources>
