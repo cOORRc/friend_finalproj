@@ -27,7 +27,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            app:srcCompat="@mipmap/ic_launcher"
+            app:srcCompat="@drawable/logoit"
             android:id="@+id/imglogoit"
             android:paddingTop="50dp"
             android:layout_marginBottom="10dp"
