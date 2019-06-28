@@ -32,15 +32,20 @@
 
     <!--five-->
     <string name="title5">ครุภัณฑ์ที่รับผิดชอบ</string>
-        <!--CardView-->
+    <!--CardView-->
     <string name="id_obj">หมายเลขครุภัณฑ์</string>
     <string name="employee">ผู้รับผิดชอบ</string>
     <string name="store">ห้องเก็บ</string>
     <string name="number">โทร</string>
     <string name="fordb">something by DB</string>
 
+    <!--search-->
+    <string name="title7">ค้นหาครุภัณฑ์</string>
+    <string name="sea">secrch</string>
+
+
     <string name="todo">TODO</string>
-    <string name="title_activity_total_obj">TotalObjActivity</string>
-    <string name="title_activity_teasch_scan">TeaschScanActivity</string>
+
+
 
 </resources>

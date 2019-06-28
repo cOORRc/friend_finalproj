@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
         butt_find.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent gotologin = new Intent(MainActivity.this,SearchActivity.class);
+                startActivity(gotologin);
             }
         });
 
