@@ -19,19 +19,19 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".SearchActivity"
-            android:label="@string/title_activity_search"
+            android:label="@string/title7"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".TeaschScanActivity"
-            android:label="@string/title_activity_teasch_scan"
+            android:label="@string/title5"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalObjActivity"
-            android:label="@string/title_activity_total_obj"
+            android:label="@string/title5"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TeachActivity"
-            android:label="@string/title_activity_teach"
+            android:label="@string/name_IT"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">

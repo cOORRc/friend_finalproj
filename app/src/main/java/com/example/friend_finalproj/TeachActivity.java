@@ -55,7 +55,8 @@ public class TeachActivity extends AppCompatActivity
         butt_find.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent gotosearch = new Intent(TeachActivity.this,SearchActivity.class);
+                startActivity(gotosearch);
             }
         });
     }
