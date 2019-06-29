@@ -20,12 +20,12 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        imformation = findViewById(R.id.toolbar);
-        img_logo = findViewById(R.id.imglogoit);
-        user = findViewById(R.id.box_user);
-        password = findViewById(R.id.box_pass);
+        imformation = (Toolbar) findViewById(R.id.toolbar);
+        img_logo = (ImageView)findViewById(R.id.imglogoit);
+        user = (TextView)findViewById(R.id.box_user);
+        password = (TextView)findViewById(R.id.box_pass);
 
-        butt_login = findViewById(R.id.buttlogin);
+        butt_login = (Button)findViewById(R.id.buttlogin_log);
         butt_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        butt_can = findViewById(R.id.buttcan);
+        butt_can = (Button)findViewById(R.id.buttcan_log);
         butt_can.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

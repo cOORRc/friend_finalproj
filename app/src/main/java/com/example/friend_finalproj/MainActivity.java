@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toolbar;
 
-
 public class MainActivity extends AppCompatActivity {
     private ImageView img_logo,img_saan,img_find;
     private Button butt_scan,butt_find,butt_staff;
@@ -22,15 +21,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 // for toolbar
-        imformation = findViewById(R.id.toolbar);
+        imformation = (Toolbar)findViewById(R.id.toolbar);
 
 // for imageView
-        img_logo = findViewById(R.id.imglogoit);
-        img_saan = findViewById(R.id.imgscan);
-        img_find = findViewById(R.id.buttcan);
+        img_logo = (ImageView)findViewById(R.id.imglogoit);
+        img_saan = (ImageView)findViewById(R.id.imgscan);
+        img_find = (ImageView)findViewById(R.id.buttcan);
 
 // for buttom
-        butt_scan = findViewById(R.id.buttscan);
+        butt_scan = (Button)findViewById(R.id.buttscan);
         butt_scan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        butt_find = findViewById(R.id.buttcan);
+        butt_find = (Button)findViewById(R.id.buttcan);
         butt_find.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        butt_staff = findViewById(R.id.buttstaff);
+        butt_staff = (Button) findViewById(R.id.buttstaff);
         butt_staff.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

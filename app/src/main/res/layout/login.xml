@@ -15,7 +15,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" android:layout_height="wrap_content">
 
-
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -68,7 +67,7 @@
                 android:text="@string/login"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttlogin"
+                android:id="@+id/buttlogin_log"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginLeft="40dp"
                 android:layout_marginStart="40dp"
@@ -78,7 +77,7 @@
                 android:text="@string/cancel"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/buttcan"
+                android:id="@+id/buttcan_log"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="40dp"
                 android:layout_marginRight="40dp"

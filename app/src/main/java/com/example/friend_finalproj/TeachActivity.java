@@ -18,7 +18,8 @@ public class TeachActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private ImageView img_scan,img_find;
-    private Button butt_scan,butt_find;
+    private Button butt_scan_teach,butt_find_teach;
+
 
 
     @Override
@@ -36,12 +37,12 @@ public class TeachActivity extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
-        img_scan = findViewById(R.id.imgscan);
-        img_find = findViewById(R.id.imgfind);
+        img_scan = (ImageView)findViewById(R.id.imgscan);
+        img_find = (ImageView)findViewById(R.id.imgfind);
 
 /*buttom for Scan*/
-        butt_scan = findViewById(R.id.buttscan);
-        butt_scan.setOnClickListener(new View.OnClickListener() {
+        butt_scan_teach = (Button)findViewById(R.id.buttscan);
+        butt_scan_teach.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent gotoscan = new Intent(TeachActivity.this,TeaschScanActivity.class);
@@ -51,8 +52,8 @@ public class TeachActivity extends AppCompatActivity
 /**********************************************************/
 
 /*buttom for Find*/
-        butt_find = findViewById(R.id.buttcan);
-        butt_find.setOnClickListener(new View.OnClickListener() {
+        butt_find_teach = (Button)findViewById(R.id.buttcan);
+        butt_find_teach.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent gotosearch = new Intent(TeachActivity.this,SearchActivity.class);
