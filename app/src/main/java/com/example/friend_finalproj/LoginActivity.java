@@ -20,7 +20,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        imformation = (Toolbar) findViewById(R.id.toolbar);
+// for toolbar
+        android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         img_logo = (ImageView)findViewById(R.id.imglogoit);
         user = (TextView)findViewById(R.id.box_user);
         password = (TextView)findViewById(R.id.box_pass);

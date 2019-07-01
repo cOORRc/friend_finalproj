@@ -19,9 +19,11 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#CBD8E7"
-            app:title="@string/name_IT" app:titleMargin="5dp" app:titleTextColor="#FCFDFD"
-            tools:layout_editor_absoluteX="-16dp" tools:layout_editor_absoluteY="-11dp"/>
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/name_IT"
+            app:titleMargin="5dp"
+            app:titleTextColor="#FCFDFD" />
 
         <ImageView
             android:layout_width="match_parent"

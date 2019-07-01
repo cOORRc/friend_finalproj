@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 // for toolbar
-        imformation = (Toolbar)findViewById(R.id.toolbar);
+        android.support.v7.widget.Toolbar toolbar = (android.support.v7.widget.Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
 
 // for imageView
         img_logo = (ImageView)findViewById(R.id.imglogoit);
@@ -29,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         img_find = (ImageView)findViewById(R.id.buttcan);
 
 // for buttom
-        butt_scan = (Button)findViewById(R.id.buttscan);
-        butt_scan.setOnClickListener(new View.OnClickListener() {
+       butt_scan = (Button)findViewById(R.id.buttscan);
+         butt_scan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent gotoscan = new Intent(MainActivity.this,TeaschScanActivity.class);
@@ -38,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
 
         butt_find = (Button)findViewById(R.id.buttcan);
         butt_find.setOnClickListener(new View.OnClickListener() {
